@@ -4,7 +4,6 @@ import {
     WalletProvider,
 } from "@solana/wallet-adapter-react";
 import {
-    LedgerWalletAdapter,
     PhantomWalletAdapter,
     SolflareWalletAdapter,
     SolletExtensionWalletAdapter,
@@ -31,7 +30,6 @@ export default function WalletContextProvider({
         () => [
             new PhantomWalletAdapter(),
             new SolflareWalletAdapter(),
-            new LedgerWalletAdapter(),
             new SolletExtensionWalletAdapter(),
             new SolletWalletAdapter(),
         ],
