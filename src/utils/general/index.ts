@@ -4,6 +4,7 @@ import {
     LAMPORTS_PER_SOL,
     TransactionSignature,
 } from "@solana/web3.js";
+import { Buffer } from "buffer";
 
 export const shortenAddress = (address: string) => {
     try {
