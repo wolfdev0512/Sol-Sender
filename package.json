@@ -1,7 +1,7 @@
 {
     "name": "sol-sender",
     "private": true,
-    "version": "0.0.0",
+    "version": "1.0.0",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
@@ -13,12 +13,14 @@
         "@solana/wallet-adapter-react-ui": "^0.9.7",
         "@solana/wallet-adapter-wallets": "^0.16.1",
         "@solana/web3.js": "^1.44.1",
+        "buffer": "^6.0.3",
         "react": "^18.0.0",
         "react-dom": "^18.0.0",
         "react-hot-toast": "^2.2.0",
         "ts-node": "^10.8.1"
     },
     "devDependencies": {
+        "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
         "@types/node": "^18.0.0",
         "@types/react": "^18.0.0",
         "@types/react-dom": "^18.0.0",

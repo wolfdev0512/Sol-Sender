@@ -4,6 +4,7 @@ import {
     LAMPORTS_PER_SOL,
     TransactionSignature,
 } from "@solana/web3.js";
+import { Buffer } from "buffer";
 
 export const shortenAddress = (address: string) => {
     try {
@@ -24,6 +25,7 @@ export const getAccountBalance = async (
 };
 
 export const validateAddress = (address: string) => {
+    window.Buffer = Buffer;
     try {
         let pubkey = new PublicKey(address);
         let isSolana = PublicKey.isOnCurve(pubkey.toBytes());
