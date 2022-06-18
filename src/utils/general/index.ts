@@ -26,9 +26,10 @@ export const getAccountBalance = async (
 export const validateAddress = (address: string) => {
     try {
         let pubkey = new PublicKey(address);
-        let isSolana = PublicKey.isOnCurve(pubkey.toBytes);
+        let isSolana = PublicKey.isOnCurve(pubkey.toBytes());
         return isSolana;
     } catch (error) {
+        console.error("validateAddress => ", error);
         return false;
     }
 };
