@@ -4,13 +4,9 @@ Using Sol Sender, users can transfer SOL from their wallet to any account on Sol
 
 **Link to App -** https://sol-sender.netlify.app/
 
-**My Portfolio Website -** https://www.bhagyamudgal.me/
-
-
 ## Tech Stack
 
 **Front-End:** React.js, TypeScript, solana/web3.js, @solana/wallet-adapter
-
 
 ## Screenshots
 
@@ -19,9 +15,3 @@ Using Sol Sender, users can transfer SOL from their wallet to any account on Sol
 ![App Screenshot 2](https://i.imgur.com/RLvGFvg.png)
 
 ![App Screenshot 3](https://i.imgur.com/OtxMP2N.png)
-
-
-## Feedback
-
-If you have any feedback, please reach out to me at bhagyamudgal@gmail.com
-
